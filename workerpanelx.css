@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #290c0c, #632b2b, #3d1a1a);
+}
+
+h1{
+    font-family: 'Jost', sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    color: #fff;
+}
+
+h2{
+	font-family: 'Jost', sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#przepis{
+    /* width: 1000px;
+	height: 80px;
+	background: #e0dede; */
+	/* justify-content: center; */
+	/* display: flex;
+    flex-direction: column;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 15px; */
+}
+
+#usun{
+	width: 500px;
+	height: 350px;
+	background: #e0dede;
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+    flex-direction: column;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 15px;
+}
+
+#input{
+	margin: 10px auto;
+	color: #fff;
+	background: #a2a2a2;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+}
+
+#button{
+	margin: 10px auto;
+	color: #fff;
+	background:#290c0c;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}

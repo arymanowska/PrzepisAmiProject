@@ -1,0 +1,162 @@
+#body{
+    margin: 0;
+	padding: 0;
+	display: flex;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #062c17, #347d3b, #13271b);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35vh 65vh;
+    grid-template-areas: "top" "bot";
+}
+
+#top{
+    grid-area: top;
+}
+
+#bot{
+    grid-area: bot;
+}
+
+
+#losuj{
+    width: 500px;
+	height: 150px;
+	background: #e0dede;
+	display: flex;
+    flex-direction: column;
+	margin: 15px auto;
+    margin-left: 30px;
+    margin-right: 30px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    float: left;
+}
+
+h3{
+    font-family: 'Jost', sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#button{
+    width: 300px;
+	height: 30px;
+	margin: 10px auto;
+	display: block;
+	color: #fff;
+	background: #2b6331;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	border: 2px solid rgb(31, 122, 57);
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+#buttonprzepis{
+	width: 300px;
+	height: 30px;
+	display: block;
+	color: #fff;
+	background: #2b6331;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	border: 2px solid rgb(20, 68, 33);
+	transition: .2s ease-in;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+#input{
+    width: 300px;
+	height: 30px;
+	margin: 10px auto;
+	display: block;
+	color: #fff;
+	background: #a2a2a2;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+}
+
+#polecane{
+    width: 380px;
+	height: 225px;
+	background: #e0dede;
+	display: flex;
+    flex-direction: column;
+	margin: 15px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    float: right;
+	margin-right: 100px;
+}
+
+#przepisy{
+    width: 650px;
+	height: 40vh;
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto 50px;
+    margin-top: 50px;
+	padding: 15px;
+	border: 2px solid white;
+	outline: none;
+	border-radius: 5px;
+    margin-top: 50px;
+    float: left;
+	overflow-y: scroll;
+    /* margin-left: 20px;
+    margin-bottom: 50px; */
+    
+}
+
+#user{
+    width: 150px;
+	height: 150px;
+	background: #e0dede;
+	margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+	margin: 15px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    float: left;
+    margin-left: 15px;
+    align-items: center;
+}
+
+#dodaj{
+	width: 400px;
+	height: 350px;
+	background: #e0dede;
+	display: flex;
+    flex-direction: column;
+	margin: 15px auto;
+    margin-left: 15px;
+	margin-top: 50px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+    float: right;
+    margin-right: 100px;
+}
